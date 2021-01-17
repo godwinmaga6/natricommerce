@@ -1613,7 +1613,7 @@ input[type="radio"] .styled:checked+label::after {
 .img-box figure img {
      box-shadow: #308409 0px 0px 0px 0px;
 }
-.plants {
+.products {
      padding: 90px 0px;
 }
 .titlepage {
@@ -1646,25 +1646,25 @@ input[type="radio"] .styled:checked+label::after {
      line-height: 32px;
      display: block;
 }
-.plants .plants-box {
+.products .products-box {
      background-color: #fff;
      box-shadow: #dcd8d8 0px 1px 3px 0px;
      margin-bottom: 30px;
 }
-.plants .plants-box figure {
+.products .products-box figure {
      margin: 0px;
 }
-.plants .plants-box figure img {
+.products .products-box figure img {
      width: 100%;
 }
-.plants .plants-box h3 {
+.products .products-box h3 {
      font-size: 30px;
      line-height: 36px;
      font-weight: 600;
      padding: 16px 20px 6px 20px;
      color: #0d0e0a;
 }
-.plants .plants-box p {
+.products .products-box p {
      font-size: 17px;
      line-height: 30px;
      padding: 0px 20px 14px 20px;
