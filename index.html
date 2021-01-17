@@ -59,7 +59,7 @@
                                  <li><a href="#product">Products</a></li>
                                  <li><a href="#gallery">Gallery</a></li>
                                  <li><a href="#contact">Contact Us</a></li>
-                                 <li><a href="#">Login</a></li>
+                                 <li><a href="#" class="btn" onclick="togglePopup()">Login</a></li>
                                  <li><a href="#">Sign up</a></li>
                                  <!-- <li class="last"><a href="#"><img src="images/search_icon.png" alt="icon"/></a></li> -->
                               </ul>
@@ -146,7 +146,19 @@
             </a>
          </div>
       <section>
-
+         <!-- login modal/pop up -->
+         <div class="popup" id="popup-1">
+            <div class="overlay"></div>
+            <div class="content">
+               <div class="close-btn" onclick="togglePopup()">&times;</div>
+               <h1>Login</h1>
+               <form>
+                  <input type="text" name="username" placeholder="Username">;
+                  <input type="text" name="password" placeholder="Enter password">
+                  <a href="#" class="btn-orange">Login</a>
+               </form>
+            </div>
+         </div>
       </section>
       
       </section>
