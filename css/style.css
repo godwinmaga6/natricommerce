@@ -720,6 +720,7 @@ ul.top_icon li a {
 
 #login-modal .modal-content .modal-body .form-group input {
      background: #ffffff;
+     
      border: 1px solid #c8c8c8;
      border-radius: 0px;
 }
@@ -2124,7 +2125,7 @@ ul.location_icon span {
      box-sizing:border-box;
 }
 
-.popup .close-btn {
+/* .popup .close-btn {
      position: absolute;
      right:20px;
      top:20px;
@@ -2138,7 +2139,7 @@ ul.location_icon span {
      text-align:center;
      border-radius:50%;
      cursor: pointer;
-}
+} */
 
 .popup.active .overlay {
      display:block;
