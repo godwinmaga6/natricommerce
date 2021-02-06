@@ -172,8 +172,17 @@ AUTH.onAuthStateChanged(user => {
     if(user){
         loggedInNotifyer.classList.remove('hide');
         loggedOutNotifyer.classList.add('hide');
+        document.querySelector('.guide-list').classList.remove('hide');
     } else {
         loggedInNotifyer.classList.add('hide');
         loggedOutNotifyer.classList.remove('hide');
+        document.querySelector('.guide-list').classList.add('hide');
     }
 });
+
+//viewing products function
+// function viewProduct() {
+//     let li = document.createElement('li');
+//     let price = document.createElement('span');
+//     let 
+// }

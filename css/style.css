@@ -1074,7 +1074,7 @@ ul.top_icon li a {
 }
 
 
-}
+
 .main-menu ul li:last-child a {
      padding-right: 0;
 }
@@ -1090,11 +1090,11 @@ ul.top_icon li a {
      position: relative;
      border-bottom: solid #eee 1px;
 }
-.main-menu ul>li .sub-down li a::before {}
+/* .main-menu ul>li .sub-down li a::before {} */
 .main-menu ul>li .sub-down li a:hover {
      color: #111111;
 }
-.main-menu ul>li .sub-down li a:hover::before {}
+/* .main-menu ul>li .sub-down li a:hover::before {} */
 .main-menu ul li:first-child {
      margin-left: 0;
 }
@@ -1148,7 +1148,7 @@ ul.top_icon li a {
      display: inline-block;
      vertical-align: middle;
 }
-.main-menu ul>li:nth-child (6) {
+.main-menu ul>li:nth-child(6) {
      padding-right: 0px;
 }
 .nav>li {
@@ -1164,7 +1164,7 @@ ul.top_icon li a {
      right: 0;
      padding: 15px 0px;
 }
-.sub-full {}
+/* .sub-full {} */
 .simple-down {
      padding: 15px;
 }
@@ -1926,7 +1926,7 @@ form a {
      text-align: center;
      margin: 0 auto;
      display: flex;
-     justify-content: center;s
+     justify-content: center;
      width: 150px;
      flex-wrap: wrap;
 }
@@ -2153,4 +2153,13 @@ ul.location_icon span {
 form input{
      width: 100%;
      margin-bottom: 5px;
+}
+
+.products-box:nth-child(1):hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn{
+     width: 90%;
+     margin: 15px;
 }

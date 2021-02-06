@@ -99,11 +99,11 @@
       </div>
 
       <!-- GUIDE LIST -->
-      <div class="container" style="margin-top: 40px;">
+      <div class="container guide-list hide" style="margin-top: 40px;">
         <ul class="collapsible z-depth-0 guides" style="border: none;">
           <li>
             <div class="collapsible-header grey lighten-4">Adding Product (Tap here)</div>
-            <div class="collapsible-body white"><span> NOTE: </br> You may add products and its details, click add and it will all be uploaded succefully, however I still need to work for the images to be displayed for each product. And I'll do that as soon as possible</span></div>
+            <div class="collapsible-body white"><span> NOTE: </br> You may add products and its details, click add and it will all be uploaded succefully, however I still need to work on editting, deletting and categorizing each product. And I'll do that as soon as possible</span></div>
           </li>
           <li>
             <div class="collapsible-header grey lighten-4">What is this?</div>
@@ -137,7 +137,7 @@
             <input type="password" id="login-password" required />
             <label for="login-password">Your password</label>
             </div>
-            <button class="btn yellow darken-2 z-depth-0 wave-light">Login</button>
+            <button class="btn yellow darken-2 z-depth-0 waves-effect waves-light btn">Login</button>
         </form>
         </div>
     </div> 
@@ -165,9 +165,11 @@
                 <label for="last-name">Last name</label>
               </div>
               <div class="field">
+                <p class="orange-text">Add Passport</p>
                 <input type="file" id="profile-image" onchange="chooseProfileImg(event)"  required/>
               </div>
-              <button class="btn blue darken-2 z-depth-0">Sign up</button>
+            </br>
+              <button class="btn blue darken-2 z-depth-0 waves-effect waves-light btn">Sign up</button>
             </form>
           </div>
       </div>
@@ -195,7 +197,7 @@
                     <p>Select Image</p>
                     <input type="file" name="product-image" onchange="chooseProductImg(event)" />
                 </div>
-                <button class="btn blue darken-2 z-depth-0">Add Product</button>
+                <button class="btn blue darken-2 z-depth-0 waves-effect waves-light btn">Add Product</button>
             </form>
             </div>
         </div>

@@ -22,10 +22,7 @@ function renderProduct(doc) {
     description.textContent = doc.data().description;
     price.textContent = `NGN ${doc.data().price}`;
     btn.textContent = 'Buy';
-    btn.classList.add('btn', 'orange', 'buy-btn');
-    //style the buy button
-    // const BUYBTN = document.querySelector('.buy-btn');
-    // BUYBTN.style.cssText = 'margin: 5px; width: 70%;';
+    btn.classList.add('btn', 'center', 'blue', 'buy-btn', 'waves-effect', 'waves-light');
 
     figure.appendChild(img);
     productBox.appendChild(figure);
