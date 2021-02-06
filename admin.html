@@ -87,6 +87,124 @@
       </header>
       <!-- end header -->
       
+      <!-- TABS -->
+      <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#front-end">Front End</a></li>
+            <li class="tab col s3"><a class="active" href="#products">Products</a></li>
+            <li class="tab col s3 disabled"><a href="#setup">Setup</a></li>
+            <li class="tab col s3"><a href="#edit-profile">Edit Profile</a></li>
+          </ul>
+        </div>
+        
+        <!-- SITE INFORMATION -->
+        <div id="front-end" class="col s12 ">
+          <div class="container">
+            
+            <form>
+              <div class="input-field">
+                <input type="text" id="site-name" required />
+                <label for="site-name">Name your site</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="address" required />
+                <label for="address">Local address</label>
+                </div>
+              <div class="input-field">
+                <input type="tel" id="contact-no" required />
+                <label for="contact-no">Contact number</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="facebook" />
+                <label for="facebook">Facebook Link</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="twitter" />
+                <label for="twitter">Twitter Link</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="linked-in" />
+                <label for="linked-in">Linked in link</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="'"'/>
+                <label for="instagram">Instagram link</label>
+                </div>
+              <div class="input-field">
+                <input type="text" id="whatsapp-link" />
+                <label for="whatsapp-link">Whastapp Group Link</label>
+                </div>
+  
+                <p>Select Logo</p>
+              <input type="file">
+                
+              <button class="btn col s6 right waves-effect waves-light btn disabled">Update</button>
+            </form>
+          </div>
+        </div>
+        <!-- END SITE INFORMATION -->
+
+        <!-- PRODUCT LIST TAB (EDIT AND DELETE) -->
+        <div id="products" class="col s12">
+          <table>
+            <thead>
+              <tr>
+                  <th>S/N</th>
+                  <th></th>
+                  <th>Product Name</th>
+                  <th>Description</th>
+                  <th>Price</th>
+                  <th>Edit Items</th>
+                  <th>Delete Items</th>
+              </tr>
+            </thead>
+    
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td><img src="#" alt="" with="120px" height="auto" class="product-img"></td>
+                <td>Mixed Ankara</td>
+                <td>Buy in large quantity</td>
+                <td>NGN 86000</td>
+                <td><button class="btn btn-small disabled">Edit</button></td>
+                <td><button class="delete btn btn-small red waves-effect waves-light">Delete</button></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td><img src="#" alt="" with="120px" height="auto" class="product-img"></td>
+                <td>Afrikana</td>
+                <td>Brings out the woman in your wife</td>
+                <td>NGN 3000</td>
+                <td><button class="btn btn-small disabled">Edit</button></td>
+                <td><button class="delete btn btn-small red waves-effect waves-light">Delete</button></td></tr>
+              <tr>
+                <td>3</td>
+                <td><img src="#" alt="" with="120px" height="auto" class="product-img"></td>
+                <td>Adidas Shoe</td>
+                <td>Classic wears for men
+
+                </td>
+                <td>NGN 3500</td>
+                <td><button class="btn btn-small disabled">Edit</button></td>
+                <td><button class="delete btn btn-small red waves-effect waves-light">Delete</button></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- END PRODUCT LIST TAB (EDIT AND DELETE) -->
+
+        <!-- SETUP TAB-->
+        <div id="setup" class="col s12">Setup
+          
+        </div>
+        <!-- END SETUP -->
+
+        <!-- EDIT PROFILE TAB -->
+        <div id="edit-profile" class="col s12">Edit Profile</div>
+        <!-- END EDIT PROFILE TAB -->
+      </div>
+      <!-- END TABS -->
+
       <!-- Logged in notification -->
       <div class="welcome container"></div>
       <div class="container logged-in-notifyer hide yellow lighten-1">
@@ -260,6 +378,7 @@
               $('.sidenav').sidenav();
               $('.materialboxed').materialbox();
               $('.parallax').parallax();
+              $('.tabs').tabs();
           });
         </script>
    </body>

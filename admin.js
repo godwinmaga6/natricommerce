@@ -173,10 +173,12 @@ AUTH.onAuthStateChanged(user => {
         loggedInNotifyer.classList.remove('hide');
         loggedOutNotifyer.classList.add('hide');
         document.querySelector('.guide-list').classList.remove('hide');
+        document.querySelector('.tabs').classList.remove('hide');
     } else {
         loggedInNotifyer.classList.add('hide');
         loggedOutNotifyer.classList.remove('hide');
         document.querySelector('.guide-list').classList.add('hide');
+        document.querySelector('.tabs').classList.add('hide');
     }
 });
 
