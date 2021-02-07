@@ -161,7 +161,6 @@ function logout() {
 let loggedOutNotifyer = document.querySelector('.logged-out-notifyer');
 let loggedInNotifyer = document.querySelector('.logged-in-notifyer');
 
-
 AUTH.onAuthStateChanged(user => {
     if(user){
         loggedInNotifyer.classList.remove('hide');
