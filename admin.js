@@ -158,12 +158,6 @@ function logout() {
     AUTH.signOut();
 }
 
-//viewProductMsg() function alert about yet to implement feature
-function viewProductMsg() {
-    M.toast({html: 'Maga is yet to add this feature!'});
-}
-
-
 let loggedOutNotifyer = document.querySelector('.logged-out-notifyer');
 let loggedInNotifyer = document.querySelector('.logged-in-notifyer');
 
@@ -173,12 +167,12 @@ AUTH.onAuthStateChanged(user => {
         loggedInNotifyer.classList.remove('hide');
         loggedOutNotifyer.classList.add('hide');
         document.querySelector('.guide-list').classList.remove('hide');
-        document.querySelector('.tabs').classList.remove('hide');
+        document.querySelector('.tabs-section').classList.remove('hide');
     } else {
         loggedInNotifyer.classList.add('hide');
         loggedOutNotifyer.classList.remove('hide');
         document.querySelector('.guide-list').classList.add('hide');
-        document.querySelector('.tabs').classList.add('hide');
+        document.querySelector('.tabs-section').classList.add('hide');
     }
 });
 
